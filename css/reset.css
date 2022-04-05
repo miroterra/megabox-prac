@@ -1,0 +1,88 @@
+@charset "uft-8";
+
+/* 여백 초기화 */
+body,
+div,
+ul,
+li,
+dl,
+dd,
+dt,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+fieldset,
+legend,
+p,
+table,
+th,
+td,
+tr,
+textarea,
+button,
+form,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+/* a tag */
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+/* font */
+body,
+input,
+textarea,
+select,
+button,
+table {
+  font-family: 'Noto Sans KR', AppleSDGothicNeo-Regular, 'Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif;
+}
+
+/* font style */
+em,
+address {
+  font-style: normal;
+}
+
+/* list-stlye */
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+/* title tag */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+/* border */
+img,
+fieldset {
+  border: 0 none;
+}
+
+/* button */
+button {
+  border: 0;
+}
+
+img {
+  width: 100%;
+}
