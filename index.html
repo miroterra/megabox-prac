@@ -12,6 +12,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
     <!-- favicon -->
     <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon-precomposed" href="icons/favicon_72.png" type="image/x-icon" />
@@ -27,13 +28,17 @@
     <header id="header">
       <div class="container">
         <div class="row">
-          <div class="header">
+          <div class="header clearfix">
             <h1>
               <a href="#">
                 <em><img src="img/logo.png" alt="MEGABOX" /></em>
                 <strong><img src="img/logo-sub.png" alt="LIFE THEATER" /></strong>
               </a>
             </h1>
+            <nav id="mNav">
+              <h2 class="ir_so">메가박스 전체메뉴</h2>
+              <a href="#" class="ham"><span></span></a>
+            </nav>
             <nav class="nav">
               <ul class="clearfix">
                 <li><a href="#">영화</a></li>
@@ -51,8 +56,8 @@
     </header>
     <!-- //header -->
     <section id="banner">
-      <h2 class="ir_so">최신 영화 소식</h2>
       <div class="banner_menu">
+        <h2 class="ir_so">최신 영화 소식</h2>
         <div class="container">
           <div class="row">
             <div class="bm_left">
@@ -77,7 +82,7 @@
         </div>
       </div>
       <div class="slider">
-        <img src="img/main_slider01.jpg" alt="베스와 베라" />
+        <div><img src="img/main_slider01.jpg" alt="베스와 베라" /></div>
       </div>
     </section>
     <!-- //banner -->
